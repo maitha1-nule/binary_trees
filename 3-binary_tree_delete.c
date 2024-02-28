@@ -8,8 +8,6 @@
 */
 void binary_tree_delete(binary_tree_t *tree)
 {
-	binary_tree_t *new_node;
-
 	if (tree != NULL)
 	{
 		binary_tree_delete(tree->left);

@@ -9,7 +9,6 @@
  */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
-	binary_tree_t *new_node;
 
 	if (node == NULL)
 		return (0);
